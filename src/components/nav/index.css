@@ -1,0 +1,125 @@
+
+.menu {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    text-decoration: none;
+    color: #E8E9EB;
+    padding: 5px 13px;
+    transition: all .5s ease;
+    border-radius: 5px
+}
+
+nav a svg {
+    width: 30px;
+}
+
+nav a:hover {
+    background-color: #E8E9EB;
+    color: #313638;
+    padding: 5px 13px;
+    border-radius: 50px;
+}
+
+.nav_link.active {
+    background-color: #E8E9EB;
+    color: #313638;
+    padding: 5px 13px;
+    border-radius: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    nav a {
+        padding: 10px;
+        border-radius: 30%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav a:hover {
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+    .nav_item_github a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+    }
+
+    .nav_item_github svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .nav_item_leetcode a {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav_item_leetcode a:hover img {
+        filter: brightness(1) saturate(100%) hue-rotate(0deg) invert(75%) sepia(10%);
+    }
+
+    .nav_item_leetcode .nav_link.active img {
+        filter: brightness(1) saturate(100%) hue-rotate(0deg) invert(75%) sepia(10%);
+    }
+
+    .nav_link.active {
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .menu {
+        padding: 20px 20px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .menu {
+        justify-content: center;
+    }
+    .menu .social_icons {
+        display: none;
+    }
+
+   
+}
+
+@media only screen and (max-width: 350px) {
+    nav a {
+        padding: 5px;
+        border-radius: 30%;
+    }
+
+    nav a:hover {
+        padding: 5px;
+        border-radius: 50%;
+    }
+
+    .nav_link.active {
+        padding: 5px;
+        border-radius: 50%;
+    }
+}

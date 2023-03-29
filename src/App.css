@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* light theme */
+
+
+.total_progress_bar::before {
+  background-color:white ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.project_img {
+  border: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.theme p {
+  color: #313638;
+}
+
+.theme h4 {
+  color:#313638;
+}
+.theme h3 {
+  color:#313638;
+}
+.theme_two h3 {
+  color:#313638;
+}
+.theme {
+  background-color: #E8E9EB;
+}
+.theme_two {
+  background-color: white;
+}
+.theme a {
+  color: rgb(12, 38, 134);
+}
+
+
+/* dakr theme */
+
+.total_progress_bar.dark::before {
+  background-color:#919191 ;
+}
+
+.project_img.dark {
+  border: 4px solid white;
+}
+
+.theme_dark p {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.theme_dark h4 {
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.theme_dark h3 {
+  color: white;
+}
+.theme_two_dark h3 {
+  color: white;
+}
+.theme_dark {
+  background-color: #313638;
+}
+.theme_two_dark {
+  background-color: #919191;
+}
+.theme_dark a {
+  color: white;
 }

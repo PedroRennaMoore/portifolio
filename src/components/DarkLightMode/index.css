@@ -1,0 +1,60 @@
+.dark_light_mode {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    bottom:  20px;
+    left: 20px;
+    background-color: rgb(136, 170, 221);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 2s;
+}
+
+.dark_light_mode.sun{
+    background-image: linear-gradient(to bottom, #3259AE, #69A4EC);
+    transition: all 2s;
+}
+
+.dark_light_mode.moon{
+    background-image: linear-gradient(to bottom, #2E2E63, #4D76A6);
+    transition: all 2s;
+}
+
+.switch {
+    width: 20px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(218, 218, 218);
+}
+
+.switch_button {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.switch_button.moon {
+    animation: swapMoon .5s forwards;
+}
+
+.switch_button.sun {
+    animation: swapSun .5s forwards;
+}
+
+@keyframes swapMoon {
+    from {transform: translateY(0);}
+    to {transform: translateY(20px);}
+}
+
+@keyframes swapSun {
+    from {transform: translateY(20px);}
+    to {transform: translateY(0);}
+}

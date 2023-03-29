@@ -1,0 +1,43 @@
+.scroll_effect_left {
+    opacity: 0;
+}
+
+.scroll_effect_left.active {
+    animation: activeLeft 1s ease forwards;
+}
+
+.scroll_effect_left.desactive {
+    animation: desactiveLeft 1s ease forwards;
+}
+
+@keyframes desactiveLeft {
+    from { opacity: 1;}
+    to { opacity: 0;}
+}
+
+@keyframes activeLeft {
+    from { transform: translateX(-400px); opacity: 0;}
+    to { transform: translateX(0); opacity: 1;}
+}
+
+.scroll_effect_right {
+    opacity: 0;
+}
+
+.scroll_effect_right.active {
+    animation: activeRight 1s forwards;
+}
+
+.scroll_effect_right.desactive {
+    animation: desactiveRight 1s ease forwards;
+}
+
+@keyframes desactiveRight {
+    from { opacity: 1;}
+    to { opacity: 0;}
+}
+
+@keyframes activeRight {
+    from { transform: translateX(400px); opacity: 0;}
+    to { transform: translateX(0); opacity: 1;}
+}
