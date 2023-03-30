@@ -1,4 +1,4 @@
-SEE THE WEBSITE: [portifolio](https://pedromoore-portifolio.web.app/)
+SEE THE WEBSITE: [PORTIFOLIO](https://pedromoore-portifolio.web.app/)
 
 Hello,
 
