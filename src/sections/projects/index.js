@@ -4,12 +4,15 @@ import "./index.css"
 import ThisWebsiteImg from "./imgs/this_website.png"
 import FlawlessCleanImg from "./imgs/flawlessclean.png"
 import apiTesterImg from "./imgs/api-tester.png"
+import chatOnline from "./imgs/chat-online.png"
 
 
 const myProjects = [
     {name: "This Website", img: ThisWebsiteImg, technologies: "HTML | CSS | JavaScript | React | REST API", url: "https://pedromoore-portifolio.web.app", repo: "https://github.com/PedroRennaMoore/portifolio"},
     {name: "Flawless Clean", img: FlawlessCleanImg, technologies: "HTML | CSS | JavaScript", url: "https://flawlessclean-1234.web.app/", repo: ""},
-    {name: "api-tester", img: apiTesterImg, technologies: "HTML | CSS | JavaScript | React | REST API", url: "https://api-tester-b9e21.web.app/", repo: "https://github.com/PedroRennaMoore/api-tester"}
+    {name: "api-tester", img: apiTesterImg, technologies: "HTML | CSS | JavaScript | React | REST API", url: "https://api-tester-b9e21.web.app/", repo: "https://github.com/PedroRennaMoore/api-tester"},
+    {name: "Real Time WebChat", img: chatOnline, technologies: "Technologies used: HTML | CSS | JavaScript | React | WebSocket | Node.js | MySQL", url: "https://chat-pedromoore.web.app/", repo: "https://github.com/PedroRennaMoore/chat-client"}
+
 ]
 
 const Projects = () => {
