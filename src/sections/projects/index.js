@@ -11,7 +11,7 @@ const myProjects = [
     {name: "This Website", img: ThisWebsiteImg, technologies: "HTML | CSS | JavaScript | React | REST API", url: "https://pedromoore-portifolio.web.app", repo: "https://github.com/PedroRennaMoore/portifolio"},
     {name: "Flawless Clean", img: FlawlessCleanImg, technologies: "HTML | CSS | JavaScript", url: "https://flawlessclean-1234.web.app/", repo: ""},
     {name: "api-tester", img: apiTesterImg, technologies: "HTML | CSS | JavaScript | React | REST API", url: "https://api-tester-b9e21.web.app/", repo: "https://github.com/PedroRennaMoore/api-tester"},
-    {name: "Real Time WebChat", img: chatOnline, technologies: "Technologies used: HTML | CSS | JavaScript | React | WebSocket | Node.js | MySQL", url: "https://chat-pedromoore.web.app/", repo: "https://github.com/PedroRennaMoore/chat-client"}
+    {name: "Real Time WebChat", img: chatOnline, technologies: "JavaScript | React | WebSocket | Node.js | MySQL", url: "https://chat-pedromoore.web.app/", repo: "https://github.com/PedroRennaMoore/chat-client"}
 
 ]
 
