@@ -1,4 +1,4 @@
-SEE THE WEBSITE: [PORTIFOLIO](https://pedromoore-portifolio.web.app/)
+Take a loot at the Project: [PORTIFOLIO](https://pedromoore-portifolio.web.app/)
 
 Hello, I created this website to showcase my projects, GitHub statistics, and LeetCode progress.
 
