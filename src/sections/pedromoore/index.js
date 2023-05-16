@@ -26,8 +26,8 @@ const PedroMoore = () => {
                         </div>
                         <div className="pedromoore_info">
                             <h4>Pedro Renna Moore</h4>
-                            <p>Frontend Developer</p>
-                            <p>Cork, Ireland</p>
+                            <p>FullStack Developer</p>
+                            <p>Sorocaba, Brazil</p>
                             <p>moorerpedro@gmail.com</p>
                             <p>+55 15 99260-5191</p>
                             <p className="nactionality"> Brazilian <img src={BrazilFlag} width="20px"  alt="" /></p>
@@ -45,6 +45,8 @@ const PedroMoore = () => {
                                 <li><p>Git / GitHub</p></li>
                                 <li><p>Node(Express)</p></li>
                                 <li><p>MongoDB</p></li>
+                                <li><p>MySQL</p></li>
+                                <li><p>WebSocket(socket.io)</p></li>
                                 <li><p>Wordpress</p></li>
                             </ul>
                         </div>
