@@ -29,7 +29,7 @@ const PedroMoore = () => {
                             <p>Frontend Developer</p>
                             <p>Cork, Ireland</p>
                             <p>moorerpedro@gmail.com</p>
-                            <p>+353 083 201 4007</p>
+                            <p>+55 15 99260-5191</p>
                             <p className="nactionality"> Brazilian <img src={BrazilFlag} width="20px"  alt="" /></p>
                         </div>
                     </div>
