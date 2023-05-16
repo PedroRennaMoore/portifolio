@@ -62,12 +62,12 @@ const PedroMoore = () => {
                 <div className="block_right theme scroll_effect_right active">
                     <div className="pedromoore_text">
                         <h4>About me</h4>
-                        <p>As a passionate and self-taught Front-end developer, I have honed my skills in crafting responsive websites utilizing HTML5, CSS3, JavaScript, and leveraging the power of React as my go-to JS framework.</p>
-                        <p>Using Node.js ( Express ) for backend servers and MongoDB as NON-Relational Database.</p>
-                        <h4>Past Experiences</h4>
-                        <p>Over the past 3 years, I have been thriving as a freelancer, building bespoke websites that align with my clients' unique needs and desires. Engaging directly with customers has not only sharpened my communication skills but also granted me the ability to guide clients in articulating their ideas more effectively.</p>
-                        <h4>Future</h4>
-                        <p>My love for web development is boundless, but I quickly found myself feeling constrained by the limitations of Wordpress Themes. Eager to design and develop any kind of website, I embarked on a journey to master Full Stack Development, expanding my horizons and unlocking my true potential.</p>
+                        <p>Hello, I'm a self-taught Fullstack Developer who has dedicated a lot of effort to achieve my current level of knowledge and skill. While on an exchange program in Ireland, I began studying programming and have since gained experience in various web development technologies and tools, such as HTML, CSS, JavaScript, React, Node.js, and MySQL, among others. I have worked on a range of projects, from small sites to complex applications using databases, servers, and websockets.</p>
+
+                        <p>I am passionate about technology and am always seeking to learn more. I believe that knowledge is the key to success in the web development field, which is why I invest a lot of time in staying up-to-date and acquiring new skills. I have strong teamwork skills, am proactive, and enjoy taking on challenges. I am also skilled at meeting deadlines and delivering high-quality results.</p>
+
+                        <p>I am currently seeking new projects and opportunities to continue growing in my career as a Fullstack Developer. If you are looking for a dedicated and committed professional with strong technical skills, please do not hesitate to contact me. I am excited to hear about your projects and how I can help make them a reality.</p>
+
                     </div>
                     <div className="pedromoore_buttons">
                         <button className="about_button" onClick={() => scrollToSection()}>Contact Me</button>
